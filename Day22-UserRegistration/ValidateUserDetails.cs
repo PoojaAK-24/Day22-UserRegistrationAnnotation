@@ -28,6 +28,9 @@ namespace Day22_UserRegistration
             annotationFields.lastName = Console.ReadLine();
             Console.Write("Enter Email Id : ");
             annotationFields.emailId = Console.ReadLine();
+            Console.Write("Enter Phone Number :");
+            annotationFields.phoneNum = Console.ReadLine();
+            
             ValidateUserAnnotationFields();
         }
 
