@@ -32,6 +32,7 @@ namespace Day22_UserRegistration
             annotationFields.phoneNum = Console.ReadLine();
             Console.Write("Enter Password : ");
             annotationFields.password = Console.ReadLine();
+           
             ValidateUserAnnotationFields();
         }
 
