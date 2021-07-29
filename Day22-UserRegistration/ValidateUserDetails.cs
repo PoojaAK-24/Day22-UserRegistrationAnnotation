@@ -24,7 +24,9 @@ namespace Day22_UserRegistration
 
             Console.Write("Enter first name :");
             annotationFields.firstName = Console.ReadLine();
-            
+            Console.Write("Enter Last name : ");
+            annotationFields.lastName = Console.ReadLine();
+
             ValidateUserAnnotationFields();
         }
 
