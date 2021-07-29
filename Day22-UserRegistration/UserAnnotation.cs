@@ -44,6 +44,6 @@ namespace Day22_UserRegistration
         [RegularExpression(@"^([a-zA-Z0-9])*[!@#$%^&*]{1}([a-zA-Z0-9])*$", ErrorMessage = "Passsword is invalid")]
         [DataType(DataType.Password)]
         public string password { get; set; }
-     }
+    }
 }
 
