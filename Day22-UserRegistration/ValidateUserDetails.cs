@@ -43,7 +43,6 @@ namespace Day22_UserRegistration
                 foreach (ValidationResult validationResult in validationResults)
                 {
                     Console.WriteLine(validationResult.ErrorMessage);
-                
                 }
             }
 

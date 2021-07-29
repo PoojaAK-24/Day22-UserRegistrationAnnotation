@@ -7,7 +7,6 @@ namespace Day22_UserRegistration
 {
     class UserAnnotationFields
     {
-        
         // validation of first name using annotation
         
         [Required(ErrorMessage = "first name is required")]
