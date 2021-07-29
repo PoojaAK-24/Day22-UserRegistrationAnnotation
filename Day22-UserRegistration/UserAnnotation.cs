@@ -15,8 +15,7 @@ namespace Day22_UserRegistration
         [RegularExpression(@"^[A-Z][a-z]{3,}$", ErrorMessage = "First name is Invalid")]
         [DataType(DataType.Text)]
         public string firstName { get; set; }
-        
-       
+           
     }
 }
 
