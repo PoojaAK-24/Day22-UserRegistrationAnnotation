@@ -10,6 +10,7 @@ namespace Day22_UserRegistration
             //object creation for class
             ValidateUserDetails validate = new ValidateUserDetails();
             validate.ValidateUser();
+        
         }
     }
 }
